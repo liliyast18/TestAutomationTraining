@@ -1,15 +1,18 @@
 public class DataTypesEx {
     public static void main(String[] args) {
-        PrintNumbers();
-        isFemale();
-        HelloWorld();
+//        PrintNumbers();
+//        isFemale();
+//        HelloWorld();
+//        Employee();
+//        SwapNumbers();
+//        FloatDouble();
     }
-
+//Task 1
     public static void isFemale() {
         boolean isFemale = true;
         System.out.println(isFemale);
     }
-
+//Task 2
     public static void PrintNumbers() {
         int a = 51240;
         byte b = -113;
@@ -22,7 +25,7 @@ public class DataTypesEx {
         System.out.println(d);
         System.out.println(e);
     }
-
+//Task 3
     public static void HelloWorld() {
         String a = "Hello";
         String b = "World";
@@ -30,5 +33,37 @@ public class DataTypesEx {
         String c = (String) object;
         System.out.println(c);
     }
-}
 
+//Task 4
+    public static void Employee() {
+        String firstName = "Liliya";
+        String familyName = "Stoyanova";
+        byte age = 24;
+        char gender = 'f';
+        String idNumber = "1234567890";
+        int employeeNumber = 38560005;
+        System.out.println("Name:" + firstName + " " + familyName);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+        System.out.println("ID Number: " + idNumber);
+        System.out.println("Employee Number: " + employeeNumber);
+
+    }
+// Tasks 4
+    public static void SwapNumbers() {
+        int number1 = 5;
+        int number2 = 10;
+        int swapNumber = number1;
+        number1 = number2;
+        number2 = swapNumber;
+        System.out.println("Number 1 = " + number1 + " " + "Number 2 = " + number2);
+    }
+// Task 5
+    public static void FloatDouble() {
+        float a = 34.567839023f;
+        double b = 34.567839023D;
+        System.out.println(a);
+        System.out.println(b);
+// Float uses 32 bits and holds about 6-7 significant decimal digits
+    }
+}
