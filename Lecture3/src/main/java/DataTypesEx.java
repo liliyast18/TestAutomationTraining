@@ -6,13 +6,17 @@ public class DataTypesEx {
 //        Employee();
 //        SwapNumbers();
 //        FloatDouble();
+//       CharToInt();
+//        SecondsIn100Years();
     }
-//Task 1
+
+    //Task 1
     public static void isFemale() {
         boolean isFemale = true;
         System.out.println(isFemale);
     }
-//Task 2
+
+    //Task 2
     public static void PrintNumbers() {
         int a = 51240;
         byte b = -113;
@@ -25,7 +29,8 @@ public class DataTypesEx {
         System.out.println(d);
         System.out.println(e);
     }
-//Task 3
+
+    //Task 3
     public static void HelloWorld() {
         String a = "Hello";
         String b = "World";
@@ -34,7 +39,7 @@ public class DataTypesEx {
         System.out.println(c);
     }
 
-//Task 4
+    //Task 4
     public static void Employee() {
         String firstName = "Liliya";
         String familyName = "Stoyanova";
@@ -49,7 +54,8 @@ public class DataTypesEx {
         System.out.println("Employee Number: " + employeeNumber);
 
     }
-// Tasks 4
+
+    // Tasks 4
     public static void SwapNumbers() {
         int number1 = 5;
         int number2 = 10;
@@ -58,7 +64,8 @@ public class DataTypesEx {
         number2 = swapNumber;
         System.out.println("Number 1 = " + number1 + " " + "Number 2 = " + number2);
     }
-// Task 5
+
+    // Task 5
     public static void FloatDouble() {
         float a = 34.567839023f;
         double b = 34.567839023D;
@@ -66,4 +73,22 @@ public class DataTypesEx {
         System.out.println(b);
 // Float uses 32 bits and holds about 6-7 significant decimal digits
     }
+
+    public static void CharToInt() {
+        char a = 'A';
+        System.out.println((int) a);
+        char symbol = (char) 72;
+        System.out.println(symbol);
+    }
+
+    public static void SecondsIn100Years() {
+        short days = 365;
+        int minutes_in_day = 24 * 60;
+        long seconds_in_a_day = minutes_in_day * 60;
+        long seconds_in_a_year = seconds_in_a_day * days;
+        long seconds_in_100_years = seconds_in_a_year * 100L;
+        System.out.println(seconds_in_100_years);
+    }
+
 }
+
