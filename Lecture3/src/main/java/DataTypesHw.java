@@ -1,9 +1,9 @@
 public class DataTypesHw {
     public static void main(String[] args) {
-        //  CelsiusToFahrenheit();
-        //  PrintSumOfDigits();
-        //  LeapYear();
-        SwapValues();
+        //CelsiusToFahrenheit();
+       // PrintSumOfDigits();
+       //  LeapYear();
+         SwapValues();
     }
 
     public static void CelsiusToFahrenheit() {
@@ -21,10 +21,12 @@ public class DataTypesHw {
     }
 
     public static void PrintSumOfDigits() {
-        int a = 472;
-        System.out.println(472 / 100);
-        System.out.println(472 / 10 % 10);
-        System.out.println(472 % 10);
+        int number = 472;
+        int digit1 = number / 100;
+        int digit2 = number / 10 % 10;
+        int digit3 = number % 10;
+        int sum = digit1 + digit2 + digit3;
+        System.out.println(sum);
 
     }
 
@@ -41,7 +43,7 @@ public class DataTypesHw {
         a = a + b;
         b = a - b;
         a = a - b;
-        System.out.println( "a = " + a + ", b = " + b);
+        System.out.println("a = " + a + ", b = " + b);
     }
 
 }
