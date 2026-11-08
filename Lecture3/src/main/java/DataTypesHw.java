@@ -3,7 +3,7 @@ public class DataTypesHw {
         //CelsiusToFahrenheit();
        // PrintSumOfDigits();
        //  LeapYear();
-         SwapValues();
+       //  SwapValues();
     }
 
     public static void CelsiusToFahrenheit() {
