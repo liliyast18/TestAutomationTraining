@@ -69,7 +69,7 @@ public class StatementsHw {
 //    Print a triangle of n rows of * with nested loops: row 1 has one *, row n has n.
 
     public static void Task4() {
-        int n = 10;
+        int n = 5;
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= row; col++) {
                 System.out.print("*");
