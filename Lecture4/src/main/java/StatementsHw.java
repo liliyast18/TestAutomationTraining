@@ -3,7 +3,8 @@ public class StatementsHw {
 //        Task1();
 //        Task2();
 //        Task3();
-        Task4();
+//        Task4();
+        Task5();
     }
 //    Write a program that prints the number of days in a month by its number (1–12) using switch-case.
 //    Ignore leap years. Print "Invalid month" for any other number.
@@ -75,6 +76,14 @@ public class StatementsHw {
                 System.out.print("*");
             }
             System.out.println();
+        }
+    }
+    public static void Task5(){
+        for (int i = 1; i <= 6; i++) {
+            if (i % 2 == 0) {
+                continue;
+            }
+            System.out.print(i);
         }
     }
 }

@@ -4,10 +4,10 @@ public class StatementsEx {
 //        Exercise2();
 //        Exercise3();
 //        Exercise4();
-//        Exercise5();
+        Exercise5();
 //        Exercise6();
 //        Exercise7();
-        Exercise8();
+        //       Exercise8();
     }
 
     public static void Exercise1() {
@@ -152,10 +152,39 @@ public class StatementsEx {
     public static void Exercise8() {
 
         for (int i = 1; i <= 30; i++) {
-            if (i % 3 == 0 && i % 7 ==0){
+            if (i % 3 == 0 && i % 7 == 0) {
                 continue;
             }
             System.out.println(i);
         }
     }
+
+    //    Write a program that shows the sign of the product of three real numbers
+// without calculating it. If any of the numbers is 0, print 0. Use a sequence of if statements.
+    public static void Exercise9() {
+        int a = 5;
+        int b = 6;
+        int c = -2;
+        if (a == 0 || b == 0 || c == 0) {
+            System.out.println("0");
+        } else {
+            int negatives = 0;
+            if (a < 0) {
+                negatives++;
+                if (b < 0) {
+                    negatives++;
+                    if (c < 0) {
+                        negatives++;
+                        if (negatives % 2 == 0) {
+                            System.out.println("+");
+                        } else {
+                            System.out.println("-");
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
 }
